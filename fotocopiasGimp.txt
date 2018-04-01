@@ -1,0 +1,67 @@
+# Carlos Parodi de la Fuente
+
+fotocopias de documentos con el móvil
+Usando el editor gimp 2.8.16 en ubuntu 16.04
+mejorar perspectiva y contraste 
+de documentos fotografiados con el movil
+
+1.- 
+Menu
+Imagen
+Transformar
+Rotar 90º en sentido antihorario (horario)
+
+2.-
+Menu
+Herramientas
+Herramientas de transformación
+Perspectiva
+Herramienta de perspectiva, mayuscula + P
+
+3.- 
+Transformar: capa
+Dirección: correctiva
+Interpolación: Cúbica
+Recortado: Recortar con aspecto
+Opacidad: 100%
+Numero líneas: 15
+
+4.-
+Ajustar rejilla al documento (interiormente para no necesitar recortar lo excedido)
+Click en: Transformar
+
+5.-
+Menu 
+Colores
+Brillo y Contraste
+Brillo: 0
+Contraste 40
+
+6.-
+Menu
+Filtros
+Artísticos
+Fotocopias
+Radio de máscara: 8,00
+Agudeza: 0,800
+Porcentaje de negro: 0,400
+Porcentaje de blanco: 0,400
+
+7.- 
+Menu
+Archivo 
+Sobreescribir
+Desea guardar los cambios a la imagen ... sobreescrita antes de cerrar?: Descartar cambios 
+
+8.-
+Menu 
+Archivo
+Cerrar Vista
+
+
+Visitar
+https://sites.google.com/site/tutorialdegimp/010---corregir-perspectiva-casos-practicos
+
+
+
+
