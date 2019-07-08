@@ -1,0 +1,13 @@
+https://trac.ffmpeg.org/wiki/Concatenate
+
+ archivos con los mismos codecs.
+ Cree un archivo lista_archivos.txt con todos los archivos que desee concatenar
+ # this is a comment
+file '/path/to/file1'
+file '/path/to/file2'
+file '/path/to/file3'
+
+ ffmpeg -f concat -safe 0 -i lista_archivos.txt -c archivo_de_salida
+ El -safe 0 anterior no es necesario si las rutas son relativas.
+ 
+ 
