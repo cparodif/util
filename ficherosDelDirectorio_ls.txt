@@ -1,0 +1,26 @@
+ls -la 
+
+lista todos los archivos y directorios desde el raiz, y los guarda en ~/archivos.txt
+
+sudo ls -laR / > ~/archivos.txt
+
+sudo ls -laiRQ --full-time /var > ~/archivos.txt
+
+Lista en formato como las siguientes líneas
+
+262209 drwx--x--- 3 root lp     4096 2019-06-30 17:44:52.521726659 +0200 "."
+262723 drwxr-xr-x 7 root root   4096 2019-02-10 01:14:48.000000000 +0100 ".."
+254662 -rw------- 1 root lp     1037 2019-05-09 22:43:46.432198806 +0200 "c00001"
+254609 -rw------- 1 root lp     3289 2019-05-09 22:46:47.060195726 +0200 "c00002"
+...
+252564 -rw-r----- 1 root lp     6573 2019-06-29 09:21:27.881574796 +0200 "d00014-001"
+252559 -rw-r----- 1 root lp   506102 2019-06-30 17:43:18.487645378 +0200 "d00018-001"
+262213 drwxrwx--T 2 root lp     4096 2019-07-02 09:46:04.331125770 +0200 "tmp"
+...
+318652 lrwxrwxrwx  1 root root    2 2019-05-03 22:32:48.599778204 +0200 "current" -> "33"
+
+
+https://manpages.debian.org/stretch/manpages-es/ls.1.es.html
+
+http://manpages.ubuntu.com/manpages/bionic/en/man1/ls.1plan9.html
+
