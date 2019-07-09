@@ -7,7 +7,12 @@ file '/path/to/file1'
 file '/path/to/file2'
 file '/path/to/file3'
 
- ffmpeg -f concat -safe 0 -i lista_archivos.txt -c archivo_de_salida
+ ffmpeg -f concat -safe 0 -i lista_archivos.txt -c copy archivo_de_salida
+ 
+ si son archivos mp4:
+ 
+ ffmpeg -f concat -safe 0 -i archivos.txt -c copy archivo.mp4
+ 
  El -safe 0 anterior no es necesario si las rutas son relativas.
  
  
