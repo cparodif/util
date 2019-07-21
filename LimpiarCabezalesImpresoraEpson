@@ -51,4 +51,4 @@ Y pega lo siguiente:
     exit 0 
 
 Y para darle permisos de ejecución:     sudo chmod +x ~/epsonmenu.sh
-Puedes utilizar el script con:     sudo epsonmenu.sh
+Puedes utilizar el script con:     sudo ~/epsonmenu.sh
