@@ -13,7 +13,7 @@ http://www.portalubuntu.com/2011/03/script-para-administrar-impresoras.html ya n
 se instala escputil:     sudo apt-get install escputil
 Se crea un archivo en ~/:     sudo gedit ~/epsonmenu.sh
 
-Y pega lo siguiente:
+Y se añade el siguiente código:
 
     #!/bin/bash
     # Este script utiliza el comando escputil para comprobar su impresora
@@ -50,5 +50,6 @@ Y pega lo siguiente:
     done
     exit 0 
 
-Y para darle permisos de ejecución:     sudo chmod +x ~/epsonmenu.sh
-Puedes utilizar el script con:     sudo ~/epsonmenu.sh
+Se da permisos de ejecución:     sudo chmod +x ~/epsonmenu.sh
+Se ejecuta con:     sudo ~/epsonmenu.sh
+O se ejecuta con:     ~/epsonmenu.sh
