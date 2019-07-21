@@ -1,5 +1,19 @@
     #!/bin/bash
     # Este script utiliza el comando escputil para comprobar su impresora
+    # Instrucciones de uso:
+    # Se ha buscando información para limpiar cabezales de impresoras epson utilizando ubuntu.
+    # Se localiza información del siguiente script que ha resultado efectivo y funcional.
+    # Fuente1: https://sites.google.com/site/ubuntupraxis/limpiar-cabezales-impresoras-epson
+    # Fuente2: Publicado en año: 2007 El link: http://www.ubuntu-es.org/node/41301#.VFtqp1EX1AQ que ya no existe.
+    # Fuente3: Publicado en año: 2011 Script para administrar impresoras EPSON en linux
+    # http://www.portalubuntu.com/2011/03/script-para-administrar-impresoras.html ya no existe
+    # Se instala escputil:     sudo apt-get install escputil
+    # Se puede ver su ayuda con la orden: escputil --help
+    # Se crea el archivo en ~/:     sudo gedit ~/epsonmenu.sh
+    # Se añade el siguiente código el siguiente código 
+    # Se da permisos de ejecución:     sudo chmod +x ~/epsonmenu.sh
+    # Se ejecuta con:     sudo ~/epsonmenu.sh
+    # O se ejecuta con:     ~/epsonmenu.sh
     echo "************************************************************"
     while true
     do
