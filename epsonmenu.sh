@@ -34,7 +34,7 @@
     echo "[c] Limpiar cabezales.                  "
     echo "[n] Imprimir test de inyectores.        "
     echo "[s] Estado y nivel de tinta.            "
-    echo "[m] Modelos soportados por _escputil_.  "
+    echo "[m] Modelos soportados por _escputil_.(q para continuar)  "
     echo "[h] Ayuda _escputil_.                   "
     echo "[0] Salir"
     read -p "Escriba una opción: " OPCION
