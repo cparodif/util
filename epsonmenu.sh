@@ -1,4 +1,4 @@
-    #!/bin/bash
+  #!/bin/bash
     # Este script utiliza el comando escputil para comprobar su impresora
     # Instrucciones de uso:
     # Se ha buscado información para limpiar cabezales de impresoras epson utilizando ubuntu.
@@ -15,6 +15,11 @@
     # Se ejecuta con:     sudo ~/epsonmenu.sh
     # O se ejecuta con:     ~/epsonmenu.sh
     echo "************************************************************"
+    # especificamos el modelo de nuestra impresora:
+    # con la orden: ls -la /dev/usb 
+    # veremos las posibles direcciones de nuestra impresora.
+    # Fuente4: https://juncotic.com/escputil-controlando-impresora-epson/
+    LaImpresora=/dev/usb/lp1
     while true
     do
     echo "[1] Limpiar cabezal de impresión."
@@ -26,19 +31,29 @@
     echo "[7] Consultar Marca y Modelo"
     echo "[8] Consultar Modelos disponibles"
     echo "[9] Ayuda y Licencia"
+    echo "[c] Limpiar cabezales.                  "
+    echo "[n] Imprimir test de inyectores.        "
+    echo "[s] Estado y nivel de tinta.            "
+    echo "[m] Modelos soportados por _escputil_.  "
+    echo "[h] Ayuda _escputil_.                   "
     echo "[0] Salir"
     read -p "Escriba una opción: " OPCION
     echo "### ### ### ### ### ### ### ### ### ### ### ### ### ### ###"
     case $OPCION in
-    1) escputil -c -qr /dev/usblp0;;
-    2) escputil -n -qr /dev/usblp0;;
-    3) escputil -i -qr /dev/usblp0;;
-    4) escputil -a -qr /dev/usblp0;;
-    5) escputil -o -qr /dev/usblp0;;
-    6) escputil -s -qr /dev/usblp0;;
-    7) escputil -d -qr /dev/usblp0;;
-    8) escputil -M -qr /dev/usblp0 | more;;
-    9) escputil -h -qr /dev/usblp0 | more; escputil -l -r /dev/usblp0;;
+    1) sudo escputil -c -qr $LaImpresora;;
+    2) sudo escputil -n -qr $LaImpresora;;
+    3) sudo escputil -i -qr $LaImpresora;;
+    4) sudo escputil -a -qr $LaImpresora;;
+    5) sudo escputil -o -qr $LaImpresora;;
+    6) sudo escputil -s -qr $LaImpresora;;
+    7) sudo escputil -d -qr $LaImpresora;;
+    8) sudo escputil -M -qr $LaImpresora | more;;
+    9) sudo escputil -h -qr $LaImpresora | more; sudo escputil -l -r $LaImpresora;;
+    'c') sudo escputil -c -ur $LaImpresora;;
+    'n') sudo escputil -n -ur $LaImpresora;;
+    's') sudo escputil -s -ur $LaImpresora;;
+    'm') sudo escputil -M -ur $LaImpresora | less;;
+    'h') sudo escputil -h | less;;
     0) echo "¡Que pase buen día…!"
     break;;
     *)
