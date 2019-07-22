@@ -19,6 +19,7 @@
     # con la orden: ls -la /dev/usb 
     # veremos las posibles direcciones de nuestra impresora.
     # Fuente4: https://juncotic.com/escputil-controlando-impresora-epson/
+    # Fuente5: https://www.taringa.net/+linux/epson-utility-niveles-de-tinta-limpiesa-cabezales_12ppyl
     LaImpresora=/dev/usb/lp1
     while true
     do
