@@ -1,0 +1,28 @@
+Backup y restauración manual de correos en Thunderbird
+Mozilla Thunderbird v.60.8.0 (64-bit)
+
+Paso1
+En carpetas locales crear una subcarpeta llamada a2019m09d09
+En esta carpeta crear las subcarpetas necesarias para organizar los correos recibidos y enviados
+Mover los correos a las subcarpetas
+
+Paso2
+Localizar la dirección de la carpeta del almacen local de Thunderbir "??? /Mail/Local Folders/"
+Localizar la dirección de la carpeta: Click Botón derecho / Propiedades / Ubicación
+"??? /Mail/Local Folders/a2019m09d09.sbd"
+
+Paso3
+Abrir el navegador de archivos en esa ubicación
+
+Paso4 Backup
+En un lugar seguro almacenaremos los siguientes elementos que componen el backup:
+La carpeta a2019m09d09.sbd
+y los archivos: a2019m09d09 y a2019m09d09.msf (el indice de la carpeta, que se puede intentar reparar)
+
+Paso5 Restaurar
+Para recuperar el backup.
+Copiaremos los siguientes elementos en la carpeta del almacen local de Thunderbir "??? /Mail/Local Folders/"
+La carpeta a2019m09d09.sbd
+y los archivos: a2019m09d09 y a2019m09d09.msf (el indice de la carpeta, que se puede intentar reparar)
+
+
