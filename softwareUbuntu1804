@@ -1,7 +1,16 @@
 Instalado:
 ---------
+Arduino ide
+
+Instalado y eliminado:
+---------------------
+Sigil
+
+Instalado desde Software Ubuntu:
+-------------------------------
 Atom
 ClamTk
+Firewall Configuración: Gufw Firewall 18.04.0 ubuntu-bionic-updates-universe
 KeePassXC 2.3.1+dfsg.1-1
 namebench-snap
 Psensor
@@ -43,7 +52,7 @@ Navegador web Firefox
 Preferencias de IBus
 Remmina
 Rhythmbox
-Seahorse
+Seahorse Contraseñas y claves
 Shotwell
 Simple Scan
 Solitario Aisleriot
