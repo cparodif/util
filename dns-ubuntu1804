@@ -1,0 +1,9 @@
+namebench y nameservers 127.0.0.53
+# search nameservers 127.0.0.53
+# https://moss.sh/es/configuracion-problematica-systemd-resolved/
+# https://www.systeminside.net/como-soluciono-resolucion-dns-ubuntu/
+# search resolucion dns en ubuntu
+# https://nebul4ck.wordpress.com/2019/01/25/ubuntu-18-dns-not-working/
+# https://www.solvetic.com/tutoriales/article/7458-como-cambiar-configurar-dns-ubuntu-19-04-ubuntu-18-04/
+# search: DNS flush
+# https://www.ionos.es/digitalguide/servidores/configuracion/dns-flush/
