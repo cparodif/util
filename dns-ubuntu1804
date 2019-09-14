@@ -9,3 +9,10 @@ namebench y nameservers 127.0.0.53
 # https://www.ionos.es/digitalguide/servidores/configuracion/dns-flush/
 
 # https://mytcpip.com/2019/05/05/ubuntu-18-04-y-netplan-tutorial-rapido-de-los-cambios-de-networking/
+
+No he probado lo que se propone en:
+# https://ubuntuforums.org/showthread.php?t=2403929
+sudo service systemd-resolved stop
+sudo systemctl disable systemd-resolved
+sudo rm -f /etc/resolv.conf
+sudo service NetworkManager restart
