@@ -7,3 +7,5 @@ namebench y nameservers 127.0.0.53
 # https://www.solvetic.com/tutoriales/article/7458-como-cambiar-configurar-dns-ubuntu-19-04-ubuntu-18-04/
 # search: DNS flush
 # https://www.ionos.es/digitalguide/servidores/configuracion/dns-flush/
+
+# https://mytcpip.com/2019/05/05/ubuntu-18-04-y-netplan-tutorial-rapido-de-los-cambios-de-networking/
