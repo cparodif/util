@@ -45,13 +45,23 @@ Agudeza: 0,800
 Porcentaje de negro: 0,400
 Porcentaje de blanco: 0,400
 
-7.- 
+7.-
+Menu
+Imagen
+Escalar Imagen
+* Anchura: 1000 px
+* Altura: su proporcional
+* Resolución X: 72,00 píxeles/in
+* Resolución Y: 72,00 píxeles/in
+
+
+8.- 
 Menu
 Archivo 
 Sobreescribir
 Desea guardar los cambios a la imagen ... sobreescrita antes de cerrar?: Descartar cambios 
 
-8.-
+9.-
 Menu 
 Archivo
 Cerrar Vista
