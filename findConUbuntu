@@ -1,2 +1,0 @@
-cd /media/usb/
-find . -type f -iname "*cdad*.*" -newermt 2018-06-01 ! -newermt 2019-10-08 

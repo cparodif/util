@@ -1,0 +1,4 @@
+cd /media/usb/
+find . -type f -iname "*cdad*.*" -newermt 2018-06-01 ! -newermt 2019-10-08 
+Busco en la carpeta actual /media/usb/ un fichero, con nombre *cdad*.* sin distinguir mayusculas y minusculas
+entre las fechas 2018-06-01 y 2019-10-08
