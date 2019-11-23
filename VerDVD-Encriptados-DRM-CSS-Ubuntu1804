@@ -1,0 +1,68 @@
+Ubuntu 18-04
+Intentando reproducir un DVD comercial, no consigo que pase del menu de idiomas.
+Así que abro nautilus desde un terminal Gnome estando como root. A parecen inconvenientes.
+
+La aplicación vlc no puede utilizarse con usuario root, pero si se puede ejecutar como
+root vlc-wrapper /usr/bin/vlc-wrapper
+
+root@a6g6-HP-Pavilion-g6-Notebook-PC:/home/a6g6# /usr/bin/vlc-wrapper
+VLC media player 3.0.8 Vetinari (revision 3.0.8-0-gf350b6b5a7)
+[000056330035b570] main libvlc error: cannot open config file (/root/.config/vlc/vlcrc): Permission denied
+[00005633003f6350] dbus interface error: Failed to connect to the D-Bus session daemon: Failed to connect to socket /run/user/0/bus: Permiso denegado
+[00005633003f6350] main interface error: no suitable interface module
+[000056330035b570] main libvlc error: interface "dbus,none" initialization failed
+[000056330035b570] main libvlc: Ejecutar vlc con la interfaz predeterminada. Use «cvlc» para usar vlc sin interfaz.
+QStandardPaths: wrong ownership on runtime directory /run/user/0, 0 instead of 1000
+[000056330035f4e0] main playlist: playlist is empty
+[0000563300416f40] main interface error: no configuration directory
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+************************************************
+**                                            **
+**  No css library available. See             **
+**  /usr/share/doc/libdvdread4/README.css     **
+**  for more information.                     **
+**                                            **
+************************************************
+libdvdnav: DVD Title: ABCDEFG
+libdvdnav: DVD Serial Number: 55884748
+libdvdnav: DVD Title (Alternative): ABCDEFG
+libdvdnav: DVD disk reports itself with Region mask 0x00fd0000. Regions: 2
+
+
+/usr/share/doc/libdvdread4/README.css  
+
+Content Scramble System (CSS)
+-----------------------------
+
+Many DVDs use CSS[0] as a form of a Digital Rights Management (DRM) to encrypt
+the content of Video DVDs. To play such discs a special library is needed to
+decode them, libdvdcss.
+
+Due to the legal limbo of libdvdcss in some particular juristictions, some
+distributions including Debian do not distribute libdvdcss.
+
+If it is legal for you to use CSS in your juristiction, you can:
+
+  * Manually download and compile the source code from
+    <http://www.videolan.org/developers/libdvdcss.html>.
+
+  * Use packages from derivatives that include libdvdcss.
+
+ [0] <http://en.wikipedia.org/wiki/Content_Scramble_System>
+ 
+
+http://www.videolan.org/developers/libdvdcss.html
+
+libdvdcss
+
+(1) sudo apt install libdvd-pkg
+
+https://askubuntu.com/questions/1052993/how-to-install-libdvdcss-so-2-library-to-ubuntu-18-04
+
+(2) sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+(3) sudo dpkg-reconfigure libdvd-pkg 
+(4)sudo apt install ubuntu-restricted-extras
+
+He instalado (1) (2) y (3) y ahora si reproduce el dvd
+(4) no he necesitado instalarlo
