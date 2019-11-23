@@ -5,7 +5,7 @@ Así que abro nautilus desde un terminal Gnome estando como root. A parecen inco
 La aplicación vlc no puede utilizarse con usuario root, pero si se puede ejecutar como
 root vlc-wrapper /usr/bin/vlc-wrapper
 
-root@a6g6-HP-Pavilion-g6-Notebook-PC:/home/a6g6# /usr/bin/vlc-wrapper
+root@a666-HP-PC:/home/a666# /usr/bin/vlc-wrapper
 VLC media player 3.0.8 Vetinari (revision 3.0.8-0-gf350b6b5a7)
 [000056330035b570] main libvlc error: cannot open config file (/root/.config/vlc/vlcrc): Permission denied
 [00005633003f6350] dbus interface error: Failed to connect to the D-Bus session daemon: Failed to connect to socket /run/user/0/bus: Permiso denegado
