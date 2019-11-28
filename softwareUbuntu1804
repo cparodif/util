@@ -97,3 +97,13 @@ Complementos:
 ------------
 core
 Ibus Table
+
+Problemas con el sonido en firefox, después de conectar por HDMI
+----------------------------------------------------------------
+sudo apt install pavucontrol
+sudo pavucontrol
+en la ventana de control de volumen, hay que cambiar la entrada de HDMI a Audio Interno
+
+
+
+
