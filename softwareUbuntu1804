@@ -104,6 +104,16 @@ sudo apt install pavucontrol
 sudo pavucontrol
 en la ventana de control de volumen, hay que cambiar la entrada de HDMI a Audio Interno
 
-
-
-
+Editar archivo bookmart.json
+----------------------------
+sublime text 3 (se instala desde software de ubuntu)
+Añadir paquete Pretty JSON en sublimetext 
+1) tools, install package control 
+2) Tools -> Command palette -> install -> y seleccionamos Package Control: Install Package.
+escribimos pretty y pulsamos en      Pretty JSON.
+3) Para configurar la combinación de teclas iremos a Preferences -> Package Settings -> PretyJSON-> Settings - User
+Y añadimos lo siguiente: { "keys": [ "ctrl+alt+m" ], "command": "un_pretty_json" }
+4) Para formatear usaremos CTRL + Alt + J
+Fuentes
+https://blog.adriaan.io/sublime-pretty-json.html
+https://manuais.iessanclemente.net/index.php/Tutorial_sobre_editor_Sublime_Text_3#Plugin_Pretty_JSON_en_Sublime_Text_3
