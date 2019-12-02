@@ -1,0 +1,41 @@
+Editar -> Preferencias -> Privacidad y Seguridad -> 
+
+Bloqueo de contenido = estricto
+Estricto
+Una mayor protección puede provocar que algunos sitios dejen de funcionar correctamente.
+Rastreadores conocidos en todas las ventanas
+Cookies de rastreo de terceros
+Criptomineros
+Fingerprinters
+
+Cookies y datos del sitio = Eliminar cookies y datos del sitio cuando cierre Firefox = seleccionado
+Enviar a los sitios web una señal “No rastrear” indicando que no quiere ser rastreado = siempre
+Historial = Usar una configuración personalizada para el historial
+Recordar historial de navegación y descargas = No seleccionado
+Recordar el historial de formularios y búsquedas = No seleccionado
+Limpiar el historial cuando Firefox se cierre = No seleccionado
+Barra de direcciones
+Al usar la barra de direcciones = No seleccionado
+sugerirHistorial de navegación = No seleccionado
+MarcadoresAbrir pestañas = No seleccionado
+
+Permisos
+Ubicación       Configuración… Bloquear nuevas solicitudes de acceso a su ubicación = seleccionado
+Cámara      Configuración… Bloquear nuevas solicitudes de acceso a su cámara
+Micrófono      Configuración… Bloquear nuevas solicitudes de acceso a su micrófono
+Notificaciones Configuración… Bloquear nuevas solicitudes de emisión de notificaciones
+Reproducción automática Configuración...  Permitir audio y video
+Bloquear ventanas emergentes = seleccionado
+Advertirle cuando los sitios web intenten instalar complementos = seleccionado
+Impedir que los servicios de accesibilidad accedan a su navegador = seleccionado
+
+Seguridad
+Protección contra contenido engañoso y software peligroso = seleccionado
+Bloquear contenido peligroso y engañoso = seleccionado
+Bloquear descargas peligrosasAdvertirle sobre software no deseado y poco usual = seleccionado
+
+Certificados
+Cuando un servidor solicite su certificado personal
+Seleccionar uno automáticamente = no seleccionado
+Preguntar cada vez  = seleccionado
+Consultar a los servidores respondedores OCSP para confirmar la validez actual de los certificados = seleccionado
