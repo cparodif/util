@@ -6,6 +6,8 @@
 # convertir ficheros .mkv a mp4
 # extraer audio de todos los .mp4 y guardarlo en ficheros .mp3
 # extraer audio de todos los .m4a en ficheros .mp3
+# debe estar instalado ffmpeg
+# sudo apt install ffmpeg
 
 
 # convertir ficheros .webm a mp4
