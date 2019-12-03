@@ -98,6 +98,14 @@ Complementos:
 core
 Ibus Table
 
+Instalar ffmpeg (audio/video)
+-----------------------------
+sudo apt install ffmpeg
+
+Complemento para firefox 
+------------------------
+Download Helper
+
 Problemas con el sonido en firefox, después de conectar por HDMI
 ----------------------------------------------------------------
 sudo apt install pavucontrol
