@@ -1,0 +1,15 @@
+fuente: https://www.redeszone.net/gnu-linux/photorec-recupera-archivos-eliminados-desde-ubuntu/
+
+sudo apt-get install testdisk
+sudo photorec
+    
+Seleccionar con las flechas del teclado el disco a recuperar + ENTER.
+Seleccionar la partición a recuperar  + ENTER.
+Si es analizar el disco entero:  opción «no partition» y analizará todo el disco  + ENTER.
+Sistema de archivos del disco o partición. EXT primera opción, (FAT, NTFS etc) otro caso + ENTER.
+Seleccionar si buscar archivos existentes en el espacio libre del disco o en toda la superficie. 
+Seleccionar donde guardar los archivos recuperados:  /home (por defecto).
+Seleccionar con las flechas el directorio donde guardar los archivos recuperados 
+Pulsaremos C proceder
+
+En ubuntu 18.04 funciona perfectamente.
