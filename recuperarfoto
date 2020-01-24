@@ -1,5 +1,5 @@
 fuente: https://www.redeszone.net/gnu-linux/photorec-recupera-archivos-eliminados-desde-ubuntu/
-
+http://www.cgsecurity.org
 sudo apt-get install testdisk
 sudo photorec
     
