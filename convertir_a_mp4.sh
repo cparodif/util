@@ -38,3 +38,6 @@ ls "$file"
 ffmpeg -i "$file" -ab 192k "$file".mp3
 done
 
+
+# ffmpeg -i 0.mp4 -ss 00:00:00 -t 00:18:00 -filter_complex "[0:v]setpts=0.80*PTS[v];[0:a]atempo=1.25[a]" -map "[v]" -map "[a]" 1.mp4
+# aumentar la velocidad de reproducción  desde el principio, durante 18 minutos, sin modificar codecs original 0.mp4 salida 1.mp4
