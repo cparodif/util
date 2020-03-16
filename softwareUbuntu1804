@@ -8,7 +8,7 @@ Sigil
 
 Instalado desde Software Ubuntu:
 -------------------------------
-Atom
+Atom y su extensión PlatformIO
 ClamTk
 Firewall Configuración: Gufw Firewall 18.04.0 ubuntu-bionic-updates-universe
 Gimp
@@ -34,6 +34,7 @@ OBS
 OpenShot
 Skype
 Virtual Box
+Visual Studio Code y su extensión PlatformIO
 
 De a primera instalación:
 ------------------------
