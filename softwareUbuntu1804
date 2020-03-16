@@ -32,6 +32,7 @@ InkScape
 Krita
 OBS
 OpenShot
+Skype
 Virtual Box
 
 De a primera instalación:
@@ -125,3 +126,25 @@ Y añadimos lo siguiente: { "keys": [ "ctrl+alt+m" ], "command": "un_pretty_json
 Fuentes
 https://blog.adriaan.io/sublime-pretty-json.html
 https://manuais.iessanclemente.net/index.php/Tutorial_sobre_editor_Sublime_Text_3#Plugin_Pretty_JSON_en_Sublime_Text_3
+
+Añadir tipografía
+-----------------
+sudo apt-get install msttcorefonts gsfonts-x11
+o
+sudo apt install ttf-mscorefonts-installer
+
+Crear un directorio donde almacenar las fuentes de windows
+mkdir /usr/share/fonts/WindowsFonts
+Copiar el contenido de las fuentes de Windows en Ubuntu
+cp /RaizAccesoASistOperWindows/Windows/Fonts/* /usr/share/fonts/WindowsFonts
+
+Probar tipos de letras en LibreOfficeDraw -> Menu -> Herramientas -> Opciones -> LibreOffice -> Tipos de Letra
+
+Si es necesario Añadir permisos 
+chmod 755 /usr/share/fonts/WindowsFonts/*   
+Actualizar cache de las fuentes de Ubuntu
+sudo fc-cache -f -v
+
+Falta de tipos de letra. Por ejemplo si falta el tipo de letra "calibri", podemos configurar LibreOffice 
+para reemplazar ese tipo de letra por el tipo de letra "Liberation Sans Narrow" 
+en LibreOfficeDraw -> Menu -> Herramientas -> Opciones -> LibreOffice -> Tipos de Letra
