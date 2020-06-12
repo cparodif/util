@@ -4,15 +4,27 @@ http://download.ebz.epson.net/dsc/search/01/search/searchModule
 
 http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=ES&CN2=&DSCMI=111235&DSCCHK=2019e8c6191e7ca77c3fb13e246471376d0b7e44
 
-http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=ES&CN2=&DSCMI=104918&DSCCHK=282319be96fca696473b583fe973914c15ca90d3
-Download Printer Driver  ESC/P-R Driver (generic driver)
---------------------------------------------------------
-epson-inkjet-printer-escpr_1.7.7-1lsb3.2_amd64.deb 4,41Mb
 In order to install these drivers, you need to install LSB package (version 3.2 or later) beforehand.
 Ubuntu:
 # apt-get install lsb
 
+1. Download Printer Driver  ESC/P Driver (full feature)
+-------------------------------------------------------
 http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=ES&CN2=&DSCMI=16846&DSCCHK=5fccbeda45c73ce8f8c4aec7d8422a8125a5bb4a
-Download Printer Driver  ESC/P Driver (full feature)
-----------------------------------------------------
 epson-inkjet-printer-201108w_1.0.0-1lsb3.2_amd64.deb   1,57Mb
+
+2. Download Printer Driver  ESC/P-R Driver (generic driver)
+-----------------------------------------------------------
+http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=ES&CN2=&DSCMI=104918&DSCCHK=282319be96fca696473b583fe973914c15ca90d3
+epson-inkjet-printer-escpr_1.7.7-1lsb3.2_amd64.deb 4,41Mb
+
+3. Download Printer Driver  Epson Printer Utility
+-------------------------------------------------
+http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=ES&CN2=&DSCMI=111235&DSCCHK=2019e8c6191e7ca77c3fb13e246471376d0b7e44
+epson-printer-utility_1.1.1-1lsb3.2_amd64.deb 1.23Mb
+
+4. Download Scanner Driver  All-in-one package
+----------------------------------------------
+http://support.epson.net/linux/en/iscan_c.php?version=2.30.4 
+iscan-bundle-2.30.4.x64.deb
+http://download.ebz.epson.net/man/linux/iscan_e.html#sec6-1
